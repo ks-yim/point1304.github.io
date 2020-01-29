@@ -9,7 +9,8 @@ tags:
 ---
 
 javascript 개발시 `fetch` 와 같은 비동기로직을 간단히 클라이언트에서 테스트하고 싶은 경우가 있다.
-`Promise`와 `setTimeout`으로 이용하여 간단하게 구현 가능하다.
+
+`Promise`와 `setTimeout`을 이용하여 간단하게 구현 가능하다.
 
 ```javascript
 const createMockApi = (resovleValue, delay) => {
