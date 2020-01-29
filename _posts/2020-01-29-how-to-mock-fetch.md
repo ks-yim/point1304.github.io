@@ -27,8 +27,8 @@ const getUser = createMockApi(
     data: {
       user: {
         id: '1',
-        username: 'someone'
-        email: 'someone@example.com'
+        username: 'someone',
+        email: 'someone@example.com',
       }
     }
   },
