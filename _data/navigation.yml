@@ -5,4 +5,4 @@ main:
   - title: 카테고리
     url: /categories
   - title: 모든 글
-    url: /year-archive
+    url: /posts
