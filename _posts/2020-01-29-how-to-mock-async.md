@@ -1,6 +1,6 @@
 ---
-title: '[javascript] 비동기 호출 mock하기'
-excerpt: 'how to mock fetch call in js'
+title: '비동기 호출 mock하기'
+excerpt: 'how to mock async call in js'
 categories:
   - Programming
 tags:
