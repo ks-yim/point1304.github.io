@@ -12,7 +12,6 @@ javascript 개발시 `fetch` 와 같은 비동기로직을 간단히 클라이�
 `Promise`와 `setTimeout`으로 이용하여 간단하게 구현 가능하다.
 
 ```javascript
-// delay in ms
 const createMockApi = (resovleValue, delay) => {
   return () => new Promise(resolve => {
     setTimeout(
