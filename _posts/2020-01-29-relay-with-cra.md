@@ -19,7 +19,7 @@ Create React App(CRA)은 React 앱의 production 및 개발환경에서 필수�
 
 공식 CRA 문서에서는 아래와 같이 babel macro를 통해 해결하는 방식을 제시하고 있다.
 
-[CRA Adding Relay](https://create-react-app.dev/docs/adding-relay/#!)
+[\[CRA Adding Relay\]](https://create-react-app.dev/docs/adding-relay/#!)
 
 ```shell
 npm install --save babel-plugin-relay
@@ -41,10 +41,10 @@ const query = graphql`
 
 위 방법은 잘 동작하고, import된 **babel-plugin-relay/macro**는 runtime이 아닌
 compile time에만 동작하기에 외부 module을 import할때의 흔한 우려와는 달리
-bundle 사이즈나 성능상의 손해는 없다. [참조](https://www.jackfranklin.co.uk/blog/saving-manual-work-with-babel-macro/)
+bundle 사이즈나 성능상의 손해는 없다. [\[참조\]](https://www.jackfranklin.co.uk/blog/saving-manual-work-with-babel-macro/)
 
-심지어 **babel macro**의 사용을 옹호하는 측에서는 __(1)수작업 설정이 필요없다는 점__과
-__(2)플러그인의 사용에 있어 외부 설정파일에 의존하지 않고 코드에 명시적으로 선언하는 점__을
+심지어 **babel macro**의 사용을 옹호하는 측에서는 <U>(1)수작업 설정이 필요없다는 점</U>과
+<U>(2)플러그인의 사용에 있어 외부 설정파일에 의존하지 않고 코드에 명시적으로 선언하는 점</U>을
 장점으로 제시하며 `.babelrc`설정을 건드리는 것 보다 macro 사용을 권장하기도 한다.
 
 ## 2. react-app-rewired를 이용하여 CRA 환경에서 Relay사용
