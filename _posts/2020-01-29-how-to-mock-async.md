@@ -1,6 +1,7 @@
 ---
 title: '비동기 호출 mock하기'
-excerpt: 'how to mock async call in js'
+date: 2020-01-29 12:08:00 +0900
+excerpt: 'Promise와 setTimeout을 이용하여 비동기 호출 mocking'
 categories:
   - Programming
 tags:
