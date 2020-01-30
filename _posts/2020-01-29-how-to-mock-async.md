@@ -1,6 +1,6 @@
 ---
 title: '비동기 호출 mock하기'
-date: 2020-01-29T12:08:00+09:00
+date: 2020-01-29 12:08:00 +0900
 last_modified_at: 2020-01-30T11:44:00+09:00
 excerpt: 'Promise와 setTimeout을 이용하여 비동기 호출 mocking'
 categories:
