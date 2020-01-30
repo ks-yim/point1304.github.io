@@ -19,8 +19,8 @@ const createMockApi = (resovleValue, delay) => {
       () => resolve(resolveValue),
       delay
     )
-  }
-});
+  });
+};
   
 const getUser = createMockApi(
   {
