@@ -1,7 +1,8 @@
 ---
 title: Create React App(CRA)에서 Relay 사용하기
 excerpt: Using Relay with CRA
-date: 2020-01-29 16:13:00 +0900
+date: 2020-01-29T16:13:00+09:00
+last_modified_at: 2020-01-30T11:45:00+09:00
 categories:
   - Programming
 tags:
